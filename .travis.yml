@@ -16,7 +16,7 @@ script:
 - git checkout gh-pages
 - git checkout master -- RevealServer.sh
 - ./RevealServer.sh && rm RevealServer.sh
-- sha256sum -b */*.zip > sha256sums.txt
+- sha256sum -b */*.zip */*.bin > sha256sums.txt
 - tree -H '.' -h --noreport --charset utf-8 -T $REPO -o index.html
 - cat github-corner.html >> index.html
 - sed -i "s/your-url/github.com\/${GH_USER}\/${REPO}/g" index.html
