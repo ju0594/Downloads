@@ -19,6 +19,6 @@ script:
 - sed -i "s/your-url/github.com\/${GH_USER}\/${REPO}/g" index.html
 deploy:
   provider: pages
-  skip_cleanup: true
+  cleanup: true
   github_token: ${GH_TOKEN}
   keep_history: false
