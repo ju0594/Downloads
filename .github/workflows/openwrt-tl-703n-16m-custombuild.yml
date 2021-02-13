@@ -1,6 +1,8 @@
 name: OpenWrt TL-703N 16m (custombuild)
 
 on:
+  push:
+  pull_request:
   schedule:
     - cron: "57 10 * * 2-6"
 

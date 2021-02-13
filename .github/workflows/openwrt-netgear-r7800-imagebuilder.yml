@@ -1,6 +1,8 @@
 name: OpenWrt Netgear R7800 (imagebuilder)
 
 on:
+  push:
+  pull_request:
   schedule:
     - cron: "47 10 * * 2-6"
 
