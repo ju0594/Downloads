@@ -1,4 +1,4 @@
-name: OpenWrt TL-703N 16m (custombuild)
+name: OpenWrt 21.02 TL-703N 16m (custombuild)
 
 on:
   push:
@@ -14,14 +14,14 @@ jobs:
     steps:
       - name: Set Environment Variable
         run: |
-          OPENWRT_TAG=`git ls-remote https://github.com/openwrt/openwrt | grep -E -o 'v19.07\.[0-9]+' | tail -1`
+          OPENWRT_TAG=`git ls-remote https://github.com/openwrt/openwrt | grep -E -o 'v21.02\.[0-9]+' | tail -1`
           OPENWRT_VERSION=`echo ${OPENWRT_TAG} | grep -E -o '[0-9]+\.[0-9]+\.[0-9]+'`
           echo "OPENWRT_TAG=${OPENWRT_TAG}" >> $GITHUB_ENV
           echo "OPENWRT_VERSION=${OPENWRT_VERSION}" >> $GITHUB_ENV
       - id: latest
         name: Check Published Version
         run: |
-          PUBLISHED_VERSION=`curl 'https://downloads.hackinggate.com' | grep 'tl-wr703n' | grep -E -o '19.07\.[0-9]+' | sort -V | tail -1 || echo 0.0.0`
+          PUBLISHED_VERSION=`curl 'https://downloads.hackinggate.com' | grep 'tl-wr703n' | grep -E -o '21.02\.[0-9]+' | sort -V | tail -1 || echo 0.0.0`
           if [[ "$OPENWRT_VERSION" == "$PUBLISHED_VERSION" ]]; then
             echo "::set-output name=is_latest::true"
           fi
@@ -33,7 +33,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Set Environment Variable
         run: |
-          OPENWRT_TAG=`git ls-remote https://github.com/openwrt/openwrt | grep -E -o 'v19.07\.[0-9]+' | tail -1`
+          OPENWRT_TAG=`git ls-remote https://github.com/openwrt/openwrt | grep -E -o 'v21.02\.[0-9]+' | tail -1`
           OPENWRT_VERSION=`echo ${OPENWRT_TAG} | grep -E -o '[0-9]+\.[0-9]+\.[0-9]+'`
           echo "OPENWRT_TAG=${OPENWRT_TAG}" >> $GITHUB_ENV
           echo "OPENWRT_VERSION=${OPENWRT_VERSION}" >> $GITHUB_ENV
@@ -54,8 +54,8 @@ jobs:
         run: |
           OPENWRT_VERSION=${{ env.OPENWRT_VERSION }}
           mkdir openwrt-${OPENWRT_VERSION}-tl-wr703n-v1-16m
-          find openwrt/bin/targets/ar71xx/generic/ -name 'openwrt-'${OPENWRT_VERSION}'-*-tl-wr703n-v1*' -exec mv {} openwrt-${OPENWRT_VERSION}-tl-wr703n-v1-16m \;
-          mv openwrt/bin/targets/ar71xx/generic/profiles.json openwrt-${OPENWRT_VERSION}-tl-wr703n-v1-16m
+          find openwrt/bin/targets/ath79/generic/ -name 'openwrt-'${OPENWRT_VERSION}'-*-tl-wr703n-v1*' -exec mv {} openwrt-${OPENWRT_VERSION}-tl-wr703n-v1-16m \;
+          mv openwrt/bin/targets/ath79/generic/profiles.json openwrt-${OPENWRT_VERSION}-tl-wr703n-v1-16m
           rm -rf openwrt
       - name: Generate gh-pages
         run: ./generate-page.sh
