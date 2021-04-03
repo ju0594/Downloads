@@ -2,7 +2,13 @@ name: OpenWrt Netgear R7800 (imagebuilder)
 
 on:
   push:
+    branches:
+      - main
+      - master
   pull_request:
+    branches:
+      - main
+      - master
   schedule:
     - cron: "0 0/12 * * 2-6"
 
@@ -36,7 +42,7 @@ jobs:
           fi
   build:
     needs: check
-    if: needs.check.outputs.latest != 'true'
+    if: ${{ needs.check.outputs.latest != 'true' || github.event_name != 'schedule' }}
     runs-on: ubuntu-latest
     steps:
       - name: Set Environment Variable
@@ -57,17 +63,31 @@ jobs:
         run: |
           OPENWRT_VERSION=${{ env.OPENWRT_VERSION }}
           ./r7800-openwrt-imagebuilder-build.sh
-      - name: Move Files
+      - name: Checkout gh-pages
+        run : |
+          git config --add remote.origin.fetch '+refs/heads/*:refs/remotes/origin/*'
+          git fetch origin gh-pages
+          git checkout gh-pages
+      - name: Override Files
         run: |
           OPENWRT_VERSION=${{ env.OPENWRT_VERSION }}
+          rm -rf openwrt-${OPENWRT_VERSION}-ipq806x-generic-netgear-r7800
           mv openwrt-imagebuilder-${OPENWRT_VERSION}-ipq806x-generic.Linux-x86_64/bin/targets/ipq806x/generic openwrt-${OPENWRT_VERSION}-ipq806x-generic-netgear-r7800
           rm -rf openwrt-imagebuilder-*
           rm openwrt-${OPENWRT_VERSION}-ipq806x-generic-netgear-r7800/sha256sums
       - name: Generate gh-pages
-        run: ./generate-page.sh
+        run: |
+          git checkout - -- generate-page.sh
+          ./generate-page.sh
+          rm generate-page.sh
+      - name: Tree
+        run: | 
+          sudo apt install tree
+          tree
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.0.0
+        uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
           branch: gh-pages
           folder: .
           clean: true
+          dry-run: ${{ github.event_name == 'pull_request' }}
