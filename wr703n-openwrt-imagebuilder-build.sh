@@ -14,8 +14,9 @@ rm openwrt-imagebuilder-${OPENWRT_VERSION}-ath79-tiny.Linux-x86_64.tar.xz
 cd openwrt-imagebuilder-${OPENWRT_VERSION}-ath79-tiny.Linux-x86_64/
 
 # Replace tiny-tp-link.mk
+OPENWRT_MAJOR_VERSION=`echo ${OPENWRT_VERSION} | grep -E -o '[0-9]+\.[0-9]+'`
 cd target/linux/ath79/image
-wget https://github.com/HackingGate/openwrt/raw/openwrt-21.02-modified-device/target/linux/ath79/image/tiny-tp-link.mk -O tiny-tp-link.mk
+wget https://github.com/HackingGate/openwrt/raw/openwrt-${OPENWRT_MAJOR_VERSION}-modified-device/target/linux/ath79/image/tiny-tp-link.mk -O tiny-tp-link.mk
 cd -
 
 # Use https
