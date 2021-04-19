@@ -27,10 +27,7 @@ sed -i -e "s/=m/=y/g" build_dir/target-mips_24kc_musl/linux-ath79_tiny/linux-*/.
 
 # Run the final build configuration
 make image PROFILE=tplink_tl-wr703n \
-PACKAGES="ca-bundle ca-certificates libustream-openssl ppp ppp-mod-pppoe \
-uhttpd uhttpd-mod-ubus libiwinfo-lua luci-base luci-app-firewall luci-mod-admin-full luci-theme-bootstrap luci \
--wpad-mini -wpad-basic wpad-openssl curl wget tcpdump \
--dnsmasq dnsmasq-full"
+PACKAGES="luci"
 
 # Result
 cd bin/targets/ath79/tiny/
