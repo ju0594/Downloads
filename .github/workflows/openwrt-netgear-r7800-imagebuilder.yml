@@ -1,4 +1,4 @@
-name: OpenWrt Netgear R7800 (imagebuilder)
+name: OpenWrt Netgear R7800
 
 on:
   push:
