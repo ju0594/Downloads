@@ -37,6 +37,8 @@ jobs:
         name: Check Published Version
         run: |
           PUBLISHED_VERSION=`curl 'https://downloads.hackinggate.com' | grep 'tplink_tl-wr703n' | grep -E -o '[0-9]+\.[0-9]+\.[0-9]+' | sort -V | tail -1 || echo 0.0.0`
+          echo "${PUBLISHED_VERSION} is published for tplink_tl-wr703n"
+          echo "${OPENWRT_VERSION} is latest"
           if [[ "$OPENWRT_VERSION" == "$PUBLISHED_VERSION" ]]; then
             echo "::set-output name=is_latest::true"
           fi
