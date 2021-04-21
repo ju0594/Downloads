@@ -21,12 +21,12 @@ sed -i -e "s/=m/=y/g" build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/linux
 
 # Run the final build configuration
 make image PROFILE=netgear_r7800 \
-PACKAGES="luci ca-bundle ca-certificates libustream-openssl \
--wpad-mini -wpad-basic wpad-openssl usbutils block-mount e2fsprogs samba4-server luci-app-samba4 \
+PACKAGES="luci ca-bundle ca-certificates libustream-wolfssl \
+-wpad-mini -wpad-basic -wpad-basic-wolfssl wpad-wolfssl usbutils block-mount e2fsprogs samba4-server luci-app-samba4 \
 aria2 luci-app-aria2 ariang stubby curl wget tcpdump kmod-fs-ext4 kmod-usb-storage kmod-usb-storage-uas \
 luci-app-statistics collectd-mod-cpu collectd-mod-interface collectd-mod-memory collectd-mod-ping collectd-mod-rrdtool collectd-mod-wireless \
 -dnsmasq dnsmasq-full mwan3 luci-app-mwan3 6in4 luci-proto-hnet \
-wireguard luci-proto-wireguard adblock luci-app-adblock avahi-utils netatalk \
+luci-app-wireguard luci-proto-wireguard adblock luci-app-adblock avahi-utils netatalk \
 diffutils git"
 
 # Result
