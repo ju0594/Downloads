@@ -5,7 +5,7 @@ set -e
 
 OPENWRT_MAJOR_VERSION=`echo ${OPENWRT_VERSION} | grep -E -o '[0-9]+\.[0-9]+'`
 TARGET='ath79'
-DEVICE_NAME='tplink-tl-wr703n'
+DEVICE_NAME='tplink_tl-wr703n'
 
 # Workaround to fix ath79 missing wifi
 if [[ $OPENWRT_MAJOR_VERSION < '20.02' ]]; then
