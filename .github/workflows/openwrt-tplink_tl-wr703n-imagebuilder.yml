@@ -73,8 +73,8 @@ jobs:
       - name: Override Files
         run: |
           OPENWRT_VERSION=${{ env.OPENWRT_VERSION }}
-          rm -rf openwrt-${OPENWRT_VERSION}-*-tiny-*tl-wr703n
           IMAGE_PREFIX=`cat openwrt-imagebuilder-${OPENWRT_VERSION}-a*7*-tiny.Linux-x86_64/bin/targets/*/tiny/profiles.json | jq '.["profiles"]' | jq 'map(.)' | jq -r '.[0]["image_prefix"]'`
+          rm -rf ${IMAGE_PREFIX}
           mv openwrt-imagebuilder-${OPENWRT_VERSION}-a*7*-tiny.Linux-x86_64/bin/targets/*/tiny ${IMAGE_PREFIX}
           rm -rf openwrt-imagebuilder-*
       - name: Generate gh-pages
