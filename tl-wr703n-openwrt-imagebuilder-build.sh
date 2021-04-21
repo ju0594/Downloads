@@ -15,7 +15,7 @@ fi
 
 echo "Download OpenWrt Image Builder ${OPENWRT_VERSION}"
 
-# Download imagebuilder for WR703N.
+# Download imagebuilder for TL-WR703N.
 aria2c -c -x4 -s4 https://downloads.openwrt.org/releases/${OPENWRT_VERSION}/targets/${TARGET}/tiny/openwrt-imagebuilder-${OPENWRT_VERSION}-${TARGET}-tiny.Linux-x86_64.tar.xz
 
 # Extract & remove used file & cd to the directory
