@@ -24,10 +24,10 @@ make image PROFILE=netgear_r7800 \
 PACKAGES="luci ca-bundle ca-certificates libustream-wolfssl \
 https-dns-proxy luci-app-https-dns-proxy \
 -wpad-mini -wpad-basic -wpad-basic-wolfssl wpad-wolfssl usbutils block-mount e2fsprogs samba4-server luci-app-samba4 \
-aria2 luci-app-aria2 ariang curl wget tcpdump kmod-fs-ext4 kmod-usb-storage kmod-usb-storage-uas \
+aria2 luci-app-aria2 ariang curl wget kmod-fs-ext4 kmod-usb-storage kmod-usb-storage-uas \
 luci-app-statistics collectd-mod-cpu collectd-mod-interface collectd-mod-memory collectd-mod-ping collectd-mod-rrdtool collectd-mod-wireless \
 -dnsmasq dnsmasq-full map mwan3 luci-app-mwan3 6in4 luci-proto-hnet \
-luci-app-wireguard luci-proto-wireguard adblock luci-app-adblock avahi-utils netatalk \
+luci-app-wireguard luci-proto-wireguard adblock luci-app-adblock tcpdump-mini avahi-utils netatalk \
 diffutils git"
 
 # Result
