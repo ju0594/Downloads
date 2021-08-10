@@ -2,7 +2,7 @@ base-files - 1430-r16256-2d5ee43dc6
 busybox - 1.33.1-6
 ca-bundle - 20210119-1
 cgi-io - 2020-10-27-ab4c3471-19
-dnsmasq - 2.85-3
+dnsmasq - 2.85-8
 dropbear - 2020.81-2
 firewall - 2021-03-23-61db17ed-1
 fstools - 2021-01-04-c53b1882-1
@@ -72,7 +72,7 @@ libxtables12 - 1.8.7-1
 logd - 2020-10-25-9ef88681-2
 lua - 5.1.5-9
 luci - git-20.074.84698-ead5e81
-luci-app-firewall - git-21.163.62626-9660eed
+luci-app-firewall - git-21.216.73213-deaa179
 luci-app-opkg - git-21.079.58598-6639e31
 luci-base - git-21.188.55099-e52e1de
 luci-lib-base - git-20.232.39649-1f6dc29
