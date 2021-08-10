@@ -6,7 +6,6 @@ ath10k-board-qca9984 - 20201118-3
 ath10k-firmware-qca9984-ct - 2020-11-08-1
 attr - 2.4.48-2
 avahi-dbus-daemon - 0.8-7
-avahi-utils - 0.8-7
 base-files - 1430-r16256-2d5ee43dc6
 block-mount - 2021-01-04-c53b1882-1
 busybox - 1.33.1-6
@@ -25,10 +24,10 @@ collectd-mod-rrdtool - 5.12.0-9
 collectd-mod-wireless - 5.12.0-9
 coreutils - 8.32-6
 coreutils-sort - 8.32-6
-curl - 7.77.0-1
+curl - 7.77.0-2
 dbus - 1.13.12-1
 diffutils - 3.7-3
-dnsmasq-full - 2.85-3
+dnsmasq-full - 2.85-8
 dropbear - 2020.81-2
 e2fsprogs - 1.45.6-2
 firewall - 2021-03-23-61db17ed-1
@@ -124,20 +123,16 @@ libc - 1.1.24-3
 libcap - 2.43-1
 libcares - 1.17.1-1
 libcomerr0 - 1.45.6-2
-libcurl4 - 7.77.0-1
+libcurl4 - 7.77.0-2
 libdaemon - 0.14-5
-libdb47 - 4.7.25.4.NC-6
 libdbus - 1.13.12-1
 libev - 4.31-1
 libevdev - 1.10.1-1
 libexpat - 2.2.10-1
 libext2fs2 - 1.45.6-2
 libgcc1 - 8.4.0-3
-libgcrypt - 1.8.7-2
-libgdbm - 1.18.1-2
 libgmp10 - 6.2.1-1
 libgnutls - 3.7.1-1
-libgpg-error - 1.39-2
 libip4tc2 - 1.8.7-1
 libip6tc2 - 1.8.7-1
 libipset13 - 7.6-1
@@ -155,6 +150,7 @@ libncurses6 - 6.2-1
 libnetfilter-conntrack3 - 1.0.8-1
 libnettle8 - 3.6-1
 libnfnetlink0 - 1.0.1-4
+libnghttp2-14 - 1.43.0-1
 libnl-tiny1 - 2020-08-05-c291088f-2
 libopenssl1.1 - 1.1.1k-1
 liboping - 1.10.0-2
@@ -187,7 +183,7 @@ lua - 5.1.5-9
 luci - git-20.074.84698-ead5e81
 luci-app-adblock - git-21.191.52202-07063ae
 luci-app-aria2 - git-20.110.55046-74da73b
-luci-app-firewall - git-21.163.62626-9660eed
+luci-app-firewall - git-21.216.73213-deaa179
 luci-app-https-dns-proxy - 2021-07-29-1
 luci-app-mwan3 - git-21.126.37401-0ddb72d
 luci-app-opkg - git-21.079.58598-6639e31
@@ -213,7 +209,6 @@ luci-theme-bootstrap - git-21.164.71418-bd36169
 map - 7
 mtd - 26
 mwan3 - 2.10.11-1
-netatalk - 3.1.12-3
 netifd - 2021-07-26-440eb064-1
 odhcp6c - 2021-01-09-53f07e90-16
 odhcpd-ipv6only - 2021-07-18-bc9d317f-3
@@ -231,7 +226,7 @@ rrdtool1 - 1.0.50-3
 samba4-libs - 4.14.5-1
 samba4-server - 4.14.5-1
 swconfig - 12
-tcpdump - 4.9.3-3
+tcpdump-mini - 4.9.3-3
 terminfo - 6.2-1
 ubi-utils - 2.1.2-1
 uboot-envtools - 2021.01-10
