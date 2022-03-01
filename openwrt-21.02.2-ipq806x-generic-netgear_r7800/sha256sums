@@ -1,4 +1,4 @@
-28d56f728f8e151c1b264fb9051c336b278990f750523672502d657e65b9fe9a *openwrt-21.02.2-ipq806x-generic-netgear_r7800-squashfs-factory.img
-fb571da5a9c6aa824ec9ca974f249862d1128b1ceb7d13f4f93851c71c579a72 *openwrt-21.02.2-ipq806x-generic-netgear_r7800-squashfs-sysupgrade.bin
+edc01a11e38a51471c42f39f2fa98dcdb6f663638c42523e9912b3c5f5a146f5 *openwrt-21.02.2-ipq806x-generic-netgear_r7800-squashfs-factory.img
+890ddc043e089cdffbd46cbe33f2c30d4620b3913785c346b6502658aedca3f9 *openwrt-21.02.2-ipq806x-generic-netgear_r7800-squashfs-sysupgrade.bin
 2b5b01c425867fc987db68ed751b467504dd0e6edea416ce34acfba99474973e *openwrt-21.02.2-ipq806x-generic-netgear_r7800.manifest
-0ebeadb327991356538571d6b218a460e2fa00eb7ef4715f8489c3584019b0e9 *profiles.json
+f4745a1f5c439ccedaf2d8ffdfa145a4e7be0c46cba63368c852b609a736c194 *profiles.json
