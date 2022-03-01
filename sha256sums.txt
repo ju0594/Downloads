@@ -53,9 +53,9 @@ cf7925403124ada679051340eba53e62d1cc90d934a79a899729e2d0e658f85b *./openwrt-21.0
 97808c4d66abff47446ca0cd221a6e584c0feffa0feb1230e5a384cd1d9ae9d4 *./openwrt-21.02.0-rc2-ath79-tiny-tplink_tl-wr703n/openwrt-21.02.0-rc2-ath79-tiny-tplink_tl-wr703n.manifest
 599457b52ac49456514c7dd44fd0ad7b85414d3c81fdca706b980b6a4ee42adb *./openwrt-21.02.0-rc2-ath79-tiny-tplink_tl-wr703n/openwrt-21.02.0-rc2-ath79-tiny-tplink_tl-wr703n-squashfs-factory.bin
 2b5b01c425867fc987db68ed751b467504dd0e6edea416ce34acfba99474973e *./openwrt-21.02.2-ipq806x-generic-netgear_r7800/openwrt-21.02.2-ipq806x-generic-netgear_r7800.manifest
-980c3b28e196503e18b4626398f52eb3814a23242671172a8b3b6b2ddc4601a5 *./openwrt-21.02.2-ipq806x-generic-netgear_r7800/profiles.json
-fc9a64fb981c06f22dd9d8efecb9496fdbc470b4695bfd193f3cde53c9536741 *./openwrt-21.02.2-ipq806x-generic-netgear_r7800/openwrt-21.02.2-ipq806x-generic-netgear_r7800-squashfs-sysupgrade.bin
-d1c6d5ff427155b51f50e6a6cc7028f7792c4494cb5ebd50053bfd48cf224c08 *./openwrt-21.02.2-ipq806x-generic-netgear_r7800/openwrt-21.02.2-ipq806x-generic-netgear_r7800-squashfs-factory.img
+0ebeadb327991356538571d6b218a460e2fa00eb7ef4715f8489c3584019b0e9 *./openwrt-21.02.2-ipq806x-generic-netgear_r7800/profiles.json
+fb571da5a9c6aa824ec9ca974f249862d1128b1ceb7d13f4f93851c71c579a72 *./openwrt-21.02.2-ipq806x-generic-netgear_r7800/openwrt-21.02.2-ipq806x-generic-netgear_r7800-squashfs-sysupgrade.bin
+28d56f728f8e151c1b264fb9051c336b278990f750523672502d657e65b9fe9a *./openwrt-21.02.2-ipq806x-generic-netgear_r7800/openwrt-21.02.2-ipq806x-generic-netgear_r7800-squashfs-factory.img
 172e76e86b9af8d1537888e221796565f65041923e5a3cdfb131c9963df4b315 *./openwrt-21.02.2-ath79-tiny-tplink_tl-wr703n/openwrt-21.02.2-ath79-tiny-tplink_tl-wr703n-squashfs-factory.bin
 6bc16f34ae19ed6b6994e0f8963ad34e2d4bf85f441a07cad01a57b3c43fceb4 *./openwrt-21.02.2-ath79-tiny-tplink_tl-wr703n/openwrt-21.02.2-ath79-tiny-tplink_tl-wr703n.manifest
 0ee1914987e92cc40ee43f6b1e6aed766b549d08e8a0e26dea61bea530a38c6a *./openwrt-21.02.2-ath79-tiny-tplink_tl-wr703n/profiles.json
