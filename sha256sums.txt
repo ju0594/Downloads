@@ -1,7 +1,7 @@
 c84263c3cb7c21e70b180f514b5c0e8ac5103758ac23f080cab1f727093f80fb *./openwrt-22.03.0-rc1-ipq806x-generic-netgear_r7800/openwrt-22.03.0-rc1-ipq806x-generic-netgear_r7800.manifest
 3ad58149fc36671b7c6b48e52d58419847db71bc514443663079efda71f6a9d0 *./openwrt-22.03.0-rc1-ipq806x-generic-netgear_r7800/openwrt-22.03.0-rc1-ipq806x-generic-netgear_r7800-squashfs-factory.img
-1cfd933ee20f67c1240dae73bb46a028febd5c50ea13a610c6b0ee56cc1f1c7a *./openwrt-22.03.0-rc1-ipq806x-generic-netgear_r7800/openwrt-22.03.0-rc1-ipq806x-generic-netgear_r7800-squashfs-sysupgrade.bin
-70373912284bea406117093219038a058c1c1a3401ce25bfcda9d2b9bb31bce7 *./openwrt-22.03.0-rc1-ipq806x-generic-netgear_r7800/profiles.json
+6a047ee53d176456b98d8333e081f0852dee1dcdb75edebfea4c4b9e77efec56 *./openwrt-22.03.0-rc1-ipq806x-generic-netgear_r7800/openwrt-22.03.0-rc1-ipq806x-generic-netgear_r7800-squashfs-sysupgrade.bin
+8465685af25305681cd1aae0c721f4ffae8993d6f61e4455fae0eed40c6d2a4d *./openwrt-22.03.0-rc1-ipq806x-generic-netgear_r7800/profiles.json
 599457b52ac49456514c7dd44fd0ad7b85414d3c81fdca706b980b6a4ee42adb *./openwrt-21.02.0-rc2-ath79-tiny-tplink_tl-wr703n/openwrt-21.02.0-rc2-ath79-tiny-tplink_tl-wr703n-squashfs-factory.bin
 97808c4d66abff47446ca0cd221a6e584c0feffa0feb1230e5a384cd1d9ae9d4 *./openwrt-21.02.0-rc2-ath79-tiny-tplink_tl-wr703n/openwrt-21.02.0-rc2-ath79-tiny-tplink_tl-wr703n.manifest
 238459d5f68030a45135dc34839265087a98631e9cc3089336e9b843e96dc26c *./openwrt-21.02.0-rc2-ath79-tiny-tplink_tl-wr703n/openwrt-21.02.0-rc2-ath79-tiny-tplink_tl-wr703n-squashfs-sysupgrade.bin
