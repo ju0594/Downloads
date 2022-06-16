@@ -1,0 +1,10 @@
+e6afcf6a09f3aadb745b636f756502824abe35714abf70b34ba6dba9cde1e02f *openwrt-19.07.8-ar71xx-tiny-device-tl-wr703n-v1.manifest
+1c3e13811423c1eb640a06e85b9f2e6b24421cba156d1973772a2070ad4672be *openwrt-19.07.8-ar71xx-tiny-root.squashfs
+648bbc52e7d8f0dcc85c66b64c5714c640d17063c055341599ec9f391cb64b3e *openwrt-19.07.8-ar71xx-tiny-tl-wr703n-v1-squashfs-factory.bin
+3ef5d6a0a4d8d8d8c0871dd37a478c60da1deb6a49ce361717d949e21b5a0c8a *openwrt-19.07.8-ar71xx-tiny-tl-wr703n-v1-squashfs-sysupgrade.bin
+f11ee65bd8f8bd6473e8896dda0c32053ba330520bf9d02226af2175b6b5892e *openwrt-19.07.8-ar71xx-tiny-uImage-lzma.bin
+098ea06a81af5bbf4db167ec196a51b5366111316cba21212ddeb9c6d734c3ef *openwrt-19.07.8-ar71xx-tiny-vmlinux-lzma.elf
+aeb03b4a002fc83d696ea27b13b2617fbf1011ac665a78aebd743073a78eba9e *openwrt-19.07.8-ar71xx-tiny-vmlinux.bin
+2ff68e8cb59da297d5f26ba21f7b8f37a83a9a7bc44fd768afa3ab759b6c2591 *openwrt-19.07.8-ar71xx-tiny-vmlinux.elf
+6a92a06cfcf20818743bc915dbb74cfc071771724cf885a7d6911020d3197f0c *openwrt-19.07.8-ar71xx-tiny-vmlinux.lzma
+2041f2a4260d00630930be412c10b11e6ec7497501f87ba6a285a6dc41e8b5e5 *profiles.json

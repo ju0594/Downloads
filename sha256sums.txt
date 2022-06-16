@@ -52,10 +52,10 @@ de185582599d563eec62cb1e50d3dab660a5efc0dd3bbe343899afaf97a76dc4 *./openwrt-19.0
 c2a886c365414714741d738a71a3ba569de138aaea5b1be817a1093562eb874f *./openwrt-21.02.0-rc2-ipq806x-generic-netgear_r7800/profiles.json
 0d98462dc0558892617917e61436f24a3fe02082d442e5ed2d0a2e8bba20a5fd *./openwrt-21.02.0-rc2-ipq806x-generic-netgear_r7800/openwrt-21.02.0-rc2-ipq806x-generic-netgear_r7800.manifest
 0f39f568639cb9f1cd4926e7c252d3b5f9f74520fb81edca7998280c2ddd0dc6 *./openwrt-21.02.0-rc2-ipq806x-generic-netgear_r7800/openwrt-21.02.0-rc2-ipq806x-generic-netgear_r7800-squashfs-factory.img
-5c4c965721ed0ece2d89e0ec0db7dcedf130320e69535bdb805f8cb7416675bb *./openwrt-19.07.8-ar71xx-tiny-tl-wr703n-v1/profiles.json
-6cbdf1ac2b04942bbddc4ee3a5aa416d5216cdb7e9c6c06467866a56435303a0 *./openwrt-19.07.8-ar71xx-tiny-tl-wr703n-v1/openwrt-19.07.8-ar71xx-tiny-tl-wr703n-v1-squashfs-factory.bin
-e20a4ea0a82e6577c4b885c1997a1d393b0e06561c5cf46f6dc65734160aa71d *./openwrt-19.07.8-ar71xx-tiny-tl-wr703n-v1/openwrt-19.07.8-ar71xx-tiny-tl-wr703n-v1-squashfs-sysupgrade.bin
-09231b4473129d2f0d9fc078df58d9a1710302b1a47c986099e868ed8b1c3234 *./openwrt-19.07.8-ar71xx-tiny-tl-wr703n-v1/openwrt-19.07.8-ar71xx-tiny-uImage-lzma.bin
+2041f2a4260d00630930be412c10b11e6ec7497501f87ba6a285a6dc41e8b5e5 *./openwrt-19.07.8-ar71xx-tiny-tl-wr703n-v1/profiles.json
+648bbc52e7d8f0dcc85c66b64c5714c640d17063c055341599ec9f391cb64b3e *./openwrt-19.07.8-ar71xx-tiny-tl-wr703n-v1/openwrt-19.07.8-ar71xx-tiny-tl-wr703n-v1-squashfs-factory.bin
+3ef5d6a0a4d8d8d8c0871dd37a478c60da1deb6a49ce361717d949e21b5a0c8a *./openwrt-19.07.8-ar71xx-tiny-tl-wr703n-v1/openwrt-19.07.8-ar71xx-tiny-tl-wr703n-v1-squashfs-sysupgrade.bin
+f11ee65bd8f8bd6473e8896dda0c32053ba330520bf9d02226af2175b6b5892e *./openwrt-19.07.8-ar71xx-tiny-tl-wr703n-v1/openwrt-19.07.8-ar71xx-tiny-uImage-lzma.bin
 e6afcf6a09f3aadb745b636f756502824abe35714abf70b34ba6dba9cde1e02f *./openwrt-19.07.8-ar71xx-tiny-tl-wr703n-v1/openwrt-19.07.8-ar71xx-tiny-device-tl-wr703n-v1.manifest
 aeb03b4a002fc83d696ea27b13b2617fbf1011ac665a78aebd743073a78eba9e *./openwrt-19.07.8-ar71xx-tiny-tl-wr703n-v1/openwrt-19.07.8-ar71xx-tiny-vmlinux.bin
 3e27e173fb927a2d5b613ae75738f528cceab9ec50a8387f565c2adc3961ca96 *./openwrt-21.02.0-ath79-tiny-tplink_tl-wr703n/profiles.json
