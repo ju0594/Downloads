@@ -9,8 +9,7 @@ on:
     branches:
       - main
       - master
-  schedule:
-    - cron: "9 0/12 * * 2-6"
+  workflow_dispatch:
 
 jobs:
   printJob:
