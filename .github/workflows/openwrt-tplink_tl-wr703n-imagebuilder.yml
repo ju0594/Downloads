@@ -64,7 +64,7 @@ jobs:
       - name: Override Files
         run: |
           OPENWRT_VERSION=${{ env.OPENWRT_VERSION }}
-          IMAGE_PREFIX='openwrt-18.06.9-ar71xx-tiny-tl-wr703n-v1'
+          IMAGE_PREFIX=$(date "+%Y%m%d%H%M%S")
           rm -rf ${IMAGE_PREFIX}
           mv openwrt-imagebuilder-${OPENWRT_VERSION}-a*7*-tiny.Linux-x86_64/bin/targets/*/tiny ${IMAGE_PREFIX}
           rm -rf openwrt-imagebuilder-*
