@@ -34,6 +34,8 @@ sed -i 's/http:/https:/g' .config repositories.conf
 # Make all kernel modules built-in
 sed -i -e "s/=m/=y/g" build_dir/target-mips_24kc_musl/linux-${TARGET}_tiny/linux-*/.config
 
+# Enable swap
+
 # Run the final build configuration
 make image PROFILE=${DEVICE_NAME} \
 PACKAGES="luci"
