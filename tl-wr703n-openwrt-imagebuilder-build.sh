@@ -35,7 +35,7 @@ cd -
 # sed -i -e "s/=m/=y/g" build_dir/target-mips_24kc_musl/linux-${TARGET}_tiny/linux-*/.config
 
 # Enable swap
-# sed -i '/CONFIG_KERNEL_SWAP/c\CONFIG_KERNEL_SWAP=y' build_dir/target-mips_24kc_musl/linux-${TARGET}_tiny/linux-*/.config
+sed -i '/CONFIG_KERNEL_SWAP/c\CONFIG_KERNEL_SWAP=y' build_dir/target-mips_24kc_musl/linux-${TARGET}_tiny/linux-*/.config
 
 # Run the final build configuration
 make image PROFILE=${DEVICE_NAME} \
