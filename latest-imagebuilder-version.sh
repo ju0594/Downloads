@@ -6,7 +6,7 @@ set -e
 # Get latest version
 # OPENWRT_VERSION=`curl -s https://api.github.com/repos/openwrt/openwrt/tags | jq -r '.[0]["name"]' | grep -E -o '[0-9]+\.[0-9]+\.[0-9]+($|-rc[0-9]+$)'`
 
-OPENWRT_VERSION='19.07.8'
+OPENWRT_VERSION='18.06.9'
 IMAGEBUILDER_HTTP_CODE=`curl -s -o /dev/null --head -w "%{http_code}" https://downloads.openwrt.org/releases/${OPENWRT_VERSION}/targets/${1}/${2}/openwrt-imagebuilder-${OPENWRT_VERSION}-${1}-${2}.Linux-x86_64.tar.xz`
 if [[ "$IMAGEBUILDER_HTTP_CODE" != 200 ]]; then
     echo "Not found for https://downloads.openwrt.org/releases/${OPENWRT_VERSION}/targets/${1}/${2}/openwrt-imagebuilder-${OPENWRT_VERSION}-${1}-${2}.Linux-x86_64.tar.xz"
