@@ -29,13 +29,13 @@ wget https://github.com/HackingGate/openwrt/raw/openwrt-${OPENWRT_MAJOR_VERSION}
 cd -
 
 # Use https
-sed -i 's/http:/https:/g' .config repositories.conf
+# sed -i 's/http:/https:/g' .config repositories.conf
 
 # Make all kernel modules built-in
-sed -i -e "s/=m/=y/g" build_dir/target-mips_24kc_musl/linux-${TARGET}_tiny/linux-*/.config
+# sed -i -e "s/=m/=y/g" build_dir/target-mips_24kc_musl/linux-${TARGET}_tiny/linux-*/.config
 
 # Enable swap
-sed -i '/CONFIG_KERNEL_SWAP/c\CONFIG_KERNEL_SWAP=y' build_dir/target-mips_24kc_musl/linux-${TARGET}_tiny/linux-*/.config
+# sed -i '/CONFIG_KERNEL_SWAP/c\CONFIG_KERNEL_SWAP=y' build_dir/target-mips_24kc_musl/linux-${TARGET}_tiny/linux-*/.config
 
 # Run the final build configuration
 make image PROFILE=${DEVICE_NAME} \
