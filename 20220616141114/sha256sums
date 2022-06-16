@@ -1,0 +1,4 @@
+aba6225a88a4d0a584f6d3614899dbc7f6f421398477d134ea0ff03205108512 *openwrt-21.02.3-ath79-tiny-tplink_tl-wr703n-squashfs-factory.bin
+fa565f319ff456402aff37bf0bbf928f44a939eb843615d8dd64c7c8c5d625c2 *openwrt-21.02.3-ath79-tiny-tplink_tl-wr703n-squashfs-sysupgrade.bin
+603b548fe82492f81938a43614a068c59e26fecd4e549b3ad2423feb53bcffc5 *openwrt-21.02.3-ath79-tiny-tplink_tl-wr703n.manifest
+fafc7c20e059a84f275be89d88e77a788bcd6b6f971b71264f05ab43401cbfdf *profiles.json
